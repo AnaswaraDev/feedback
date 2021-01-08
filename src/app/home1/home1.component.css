@@ -1,0 +1,45 @@
+button {
+    margin-right : 3rem;
+    
+}
+table {
+    width: 100%;
+  }
+  div { 
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+  }
+ 
+ 
+div.ex1 {
+    width: 300px;
+    padding-right: 30px;
+    box-sizing: border-box;
+   
+  } 
+  div.ex2 {
+    width: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-indent: 0.5 px;
+    text-transform: capitalize;
+  }
+  div.ex3 {
+    
+    padding: 4px;
+    padding-right: 35px;
+   
+   
+  }
+ div.ex5 {
+    padding: 4px;
+    padding-right: 35px;
+    font-style: normal;
+ }
+ div.abc {
+    padding: 4px;
+    padding-right: 35px;
+ }
+ 

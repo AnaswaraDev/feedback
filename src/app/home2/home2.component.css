@@ -1,0 +1,41 @@
+section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+    background-color: blue;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  div.ex6{
+    background-color: rgb(34, 122, 211);
+    height: 600px;
+    text-align: center;
+   
+  }
+  div.ex7 {
+    color : white ;
+    padding :30px;
+    text-align: center;
+    height: 50px;
+  } 
+  div.ex8 {
+   
+    text-align: center;
+   
+    
+  }
+  div.ex9 {
+    color : white ;
+    padding :90px;
+    text-align: center;
+  } 
+  
+  
