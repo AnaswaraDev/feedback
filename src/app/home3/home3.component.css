@@ -1,4 +1,43 @@
 button {
-    margin-right : 3rem;
+  margin-right : 3rem;
+  
+}
+table {
+  width: 100%;
+}
+div.abc {
+  padding: 4px;
+  padding-right: 35px;
+ 
     
+    font-style: normal;
+}
+div.ex3 {
+
+  padding: 30px;
+  box-sizing: border-box;
+  
+}
+
+
+
+button {
+  margin-right : 3rem;
+  
+}
+p.two {
+  width: 770px;
+  border: 5px solid gray;
+  padding-left :60px;
+  padding-right : 60px;
+  padding-top: 30px;
+  border-width: medium;
+  height: 120px;
+}
+div.one {
+  padding :30px;
+}
+div.three{
+  padding-left: 400px;
+
 }

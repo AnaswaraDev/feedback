@@ -12,6 +12,7 @@ import { Home2Component } from './home2/home2.component';
 import { Home3Component } from './home3/home3.component';
 import { Home4Component } from './home4/home4.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

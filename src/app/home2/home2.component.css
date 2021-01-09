@@ -1,22 +1,12 @@
-section {
-    display: table;
-  }
-  
-  .example-label {
-    display: table-cell;
-    font-size: 14px;
-    margin-left: 8px;
-    min-width: 120px;
-    background-color: blue;
-  }
-  
-  .example-button-row {
-    display: table-cell;
-    width: 490px;
-  }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
   div.ex6{
-    background-color: rgb(34, 122, 211);
-    height: 600px;
+   
+    display: block;
     text-align: center;
    
   }
@@ -35,7 +25,4 @@ section {
   div.ex9 {
     color : white ;
     padding :90px;
-    text-align: center;
-  } 
-  
-  
+    text-align: center;}

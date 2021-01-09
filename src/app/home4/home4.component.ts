@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class Home4Component implements OnInit {
 
   constructor() { }
-
+ //currentRate :number = 3 ;
   ngOnInit(): void {
   }
 
