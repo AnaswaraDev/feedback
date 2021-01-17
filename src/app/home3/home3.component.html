@@ -1,39 +1,54 @@
-  <div class="abc">
+
+<div class="abc">
   
   <!-- TABLE TWO-->
-  <div  class=  "ex3" > 
-  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8"   appearance="fill">
+  <div  class=  "ex3" class="table table-striped"  > 
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8"  appearance="fill">
      <!-- Position Column -->
      <ng-container matColumnDef="questions" > 
        <th mat-header-cell *matHeaderCellDef> Questions </th>
-       <td mat-cell *matCellDef="let element"> {{element.questions}} </td>
+       <td mat-cell *matCellDef="let element"> {{ element.questions}}
+        
      </ng-container>
    
      <!-- Name Column -->
      <ng-container matColumnDef="excellent">
-       <th mat-header-cell *matHeaderCellDef> Excellent </th>
-       <td mat-cell *matCellDef="let element"> {{element.excellent}} </td>
+      <th mat-header-cell *matHeaderCellDef> Excellent </th>
+      <th mat-header-cell *matHeaderCellDef> Good </th>
+      <td mat-cell *matCellDef="let element"> 
+      <ngb-rating [max]="1" [(rate)]="currentRate" [readonly]="false"></ngb-rating>
+     {{element.currentRate   }}
+       </td>
+        
+        
+
      </ng-container>
 
      <ng-container matColumnDef="good">
          <th mat-header-cell *matHeaderCellDef> Good </th>
-         <td mat-cell *matCellDef="let element"> {{element.good}} </td>
+         <td mat-cell *matCellDef="let element"> 
+         <ngb-rating [max]="1" [(rate)]="currentRate" [readonly]="false"></ngb-rating>
+        {{element.currentRate   }}
+          </td>
        </ng-container>
    
      <!-- Weight Column -->
      <ng-container matColumnDef="average">
-       <th mat-header-cell *matHeaderCellDef> Average </th>
-       <td mat-cell *matCellDef="let element"> {{element.average}} </td>
+       <th mat-header-cell *matHeaderCellDef class="rw-ui-star-0 rw-ui-star-selected"> Average </th>
+       <td mat-cell *matCellDef="let element"> <ngb-rating [max]="1" [(rate)]="currentRate" [readonly]="false"></ngb-rating>
+        {{element.currentRate   }} </td>
      </ng-container>
    
        <!-- Symbol Column -->
        <ng-container matColumnDef="poor">
         <th mat-header-cell *matHeaderCellDef> Poor </th>
-        <td mat-cell *matCellDef="let element"> {{element.poor}} </td>
+        <td mat-cell *matCellDef="let element"><ngb-rating [max]="1" [(rate)]="currentRate" [readonly]="false"></ngb-rating>
+          {{element.currentRate   }} </td>
       </ng-container>
       <ng-container matColumnDef="vpoor">
         <th mat-header-cell *matHeaderCellDef> Very poor </th>
-        <td mat-cell *matCellDef="let element"> {{element.vpoor}} </td>
+        <td mat-cell *matCellDef="let element"> <ngb-rating [max]="1" [(rate)]="currentRate" [readonly]="false"></ngb-rating>
+          {{element.currentRate   }} </td>
       </ng-container>
 
    
@@ -54,11 +69,11 @@
   
 <div class="one"> 
  <p>what we can do to improve our service? </p> <br> 
-<p class="two"> </p>
+ <textarea  class="two "></textarea>
 
 <div class="three">
-    <button mat-raised-button  routerLink= "/home4"style="background-color :#24b37cd8;"  >
-  Submit</button>
+  <button mat-raised-button  routerLink= "/home4"style="background-color :#24b37cd8;"  >
+    Submit</button>
  
 </div>
 </div>
